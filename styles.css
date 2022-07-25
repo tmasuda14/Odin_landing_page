@@ -1,0 +1,48 @@
+* {
+    border: 2px solid black;
+}
+
+.nav {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.hero {
+    display: flex;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.quote {
+    margin: 30px 100px;
+}
+
+.quoted {
+    justify-content: right;
+}
